@@ -1,0 +1,55 @@
+.mainProfile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 80vh;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.containerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.containerAvatar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 450px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #1E4D7B;
+}
+
+.fontTitleProfile {
+    font-family: rubik;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: .3rem ;
+    max-width: 400px;
+    color: white;
+}
+
+.fontSubtitleProfile{
+    margin-left: 20px;
+    font-family: rubik;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: .3rem ;
+    max-width: 400px;
+    color: white;
+}
+
+.fontProfile {
+    font-family: rubik;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: .3rem ;
+    color: white;
+}

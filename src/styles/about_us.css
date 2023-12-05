@@ -1,0 +1,46 @@
+.container_about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #DCE8E8;
+}
+.main_about{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.mission, .vision{
+    text-align: center;
+    border-bottom: solid .1em rgb(0, 204, 255);
+    background-color: aliceblue;
+}
+
+.mission, .vision, .values{
+    width: 100%;
+    font-size: 1.4em;
+    padding-top: 10%;
+    padding-bottom: 10%;
+   
+}
+
+.values{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: aliceblue;
+}
+
+.values>ul{
+    list-style: none;
+}
+
+.title_div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 8%;
+    font-weight: .9em;
+    color: rgb(20, 187, 216);
+}
+
+

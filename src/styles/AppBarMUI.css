@@ -1,0 +1,21 @@
+.links_router {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: white; 
+    font-weight: 600;
+}
+
+.appBar {
+    margin: 15px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

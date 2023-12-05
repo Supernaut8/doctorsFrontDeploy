@@ -1,0 +1,70 @@
+.mainPlan {
+    background-color: #DCE8E8;
+    width: 100%;
+    min-height: 85vh;
+}
+
+.grid-plans {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1E4D7B;
+    width: 350px;
+    min-height: 550px;
+}
+
+.container_plan {
+    border: 1px solid #ddd;
+    max-width: 300px;
+    min-height: 500px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    background-color: #1E4D7B;
+    color: white;
+}
+
+.imgContainer {
+    margin: auto;
+    border-radius: 10px;
+    width: 175px;
+    height: 150px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.planDescription {
+    padding-top: 10px;
+    background-color: #1E4D7B;
+    color: white;
+}
+
+.description {
+    max-width: 300px;
+}
+
+.planName {
+    font-size: 24px;
+    color: rgb(197, 153, 41);
+} 

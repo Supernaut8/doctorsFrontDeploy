@@ -1,0 +1,84 @@
+.searchMedics {
+    background-color: #DCE8E8;
+    width: 100%;
+    min-height: 85vh;
+}
+
+.card-Detail {
+    background-color: #DCE8E8;
+    width: 100vw;
+}
+
+.grid-cards {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #ddd; */
+}
+
+.grid-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1E4D7B;
+
+}
+
+.container_doctor {
+    /* border: 1px solid #ddd; */
+    max-width: 400px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    background-color: #1E4D7B;
+    color: white;
+}
+
+.imgContainer {
+    margin: 10px;
+    border-radius: 10px;
+    width: 175px;
+    height: 150px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.doctorDescription {
+    padding-top: 10px;
+    background-color: #1E4D7B;
+    color: white;
+}
+
+.btnContainer {
+    margin: 10px 0;
+    background-color: #1E4D7B;
+}
+
+.btnDetails {
+    background-color: red;
+    color: white;
+    max-width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.description {
+    max-width: 380px;
+}
+
+.fullName {
+    font-size: 24px;
+    color: rgb(197, 153, 41);
+} 
